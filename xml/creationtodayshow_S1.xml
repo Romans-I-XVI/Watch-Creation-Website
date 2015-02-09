@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E1.jpg">
+		<title>Episode 1: The First Show! </title>
+		<contentId>10001</contentId>
+		<contentType>Video Podcast</contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://pdl.vimeocdn.com/69501/092/298759806.mp4?download=1&token2=1413820472_15b39d76b409f9fcabbf70f40387b588&filename=CT1-01%2520The%2520First%2520Show-SD.mp4]]></streamUrl>
+		</media>
+		<synopsis>Eric Hovind and Paul Taylor discuss: How should a student cope in a public school; does belief in creation affect salvation; should creation be used when preaching the gospel?</synopsis>
+		<genres>Show</genres>
+		<runtime>1711</runtime>
+		<date>05/26/2011</date>
+	</item>	
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E2.jpg">
+		<title>Episode 2: Should you talk about creation if you are sharing your faith?</title>
+		<contentId>10002</contentId>
+		<contentType>Video Podcast</contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://pdl.vimeocdn.com/72983/198/298693522.mp4?download=1&token2=1413820614_13ae9b817aae9d72447582e2200f26e5&filename=beginnings-HD.mp4]]></streamUrl>
+		</media>
+		<synopsis>Eric Hovind and Paul Taylor discuss: Does a day mean a day; dinosaurs with big eyes; and museum dinosaur exhibits.</synopsis>
+		<genres>Show</genres>
+		<runtime>1699</runtime>
+		<date>06/02/2011</date>
+	</item>	
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E3.jpg">
+		<title>Episode 3: How do evolutionists come up with the idea that creationists are not real scientists?</title>
+                <contentId>10003</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl>http://video.ted.com/talks/podcast/VilayanurRamachandran_2007_480.mp4</streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss: Creationists versus scientists; the appendix and vestigial organs; the benefit of denying a creator.</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>06/09/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E4.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E4.jpg">
+		<title>Episode 4: The Genesis Series</title>
+                <contentId>10004</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss: Defense mechanisms such as thorns; Mokele Mbembe; how people scattered across the world.</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>06/17/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E5.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E5.jpg">
+		<title>Episode 5: Oklo Nuclear Reactor and other Questions</title>
+                <contentId>10005</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss: The Oklo Natural Nuclear Reactor; the fountains of the deep breaking open; the first day of creation.</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>06/23/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E6.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E6.jpg">
+		<title>Episode 6: Are we all gods?</title>
+                <contentId>10006</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss: Dan Brown’s theory that we are all gods; evidence supporting a worldwide flood; living for God’s glory.</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>06/30/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E7.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E7.jpg">
+		<title>Episode 7: Why are kangaroos and koalas only found in Australia?</title>
+                <contentId>10007</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul discuss: Why are kangaroos and koalas only found in Australia; did disobedience give us knowledge of right and wrong; are we paying for Adam’s debt?</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>07/14/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E8.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E8.jpg">
+		<title>Episode 8: What is the proof that God exists?</title>
+                <contentId>10008</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest Sye Ten Bruggencate to discuss the biblical approach to proving the existence of God.</synopsis>
+                <genres>Show</genres>
+                <runtime>1711</runtime>
+                <date>07/21/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E9.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E9.jpg">
+		<title>Episode 9: Darwin on the Rocks</title>
+                <contentId>10009</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest John Mackay, International Director of Creation Research in Australia, for a lively discussion on geology and Noah’s Flood.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>07/28/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E10.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E10.jpg">
+		<title>Episode 10: The Age of the Earth and Where It Came From</title>
+                <contentId>10010</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest John Mackay, International Director of Creation Research in Australia, for part two of a lively discussion on the evidences of a young earth.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>08/04/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E11.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E11.jpg">
+		<title>Episode 11: How to stand for Christianity in college</title>
+                <contentId>10011</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest Dr. G. Charles Jackson, Director of College Ministries at Creation Truth Foundation, for a two-part back-to-school series.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>08/11/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E12.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E12.jpg">
+		<title>Episode 12: How to stand for Christianity in college, Part 2</title>
+                <contentId>10012</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest Dr. G. Charles Jackson, Director of College Ministries at Creation Truth Foundation, for part two of the back-to-school series.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>08/18/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E13.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E13.jpg">
+		<title>Episode 13: Atheist’s Greatest Illusion Revealed</title>
+                <contentId>10013</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Sye Ten Bruggencate joins Eric and Paul to expose the latest illusion devised by atheists to get Christians to doubt their faith.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>08/25/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E14.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E14.jpg">
+		<title>Episode 14: Worldwide Evidence of a Worldwide Flood</title>
+                <contentId>10014</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Was there really a worldwide flood? Ark Hunter, Jeremy Wiles, joins Eric and Paul to discuss fascinating stories gathered from around the world while on a journey to find evidence of Noah’s Ark.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>09/08/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E15.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E15.jpg">
+		<title>Episode 15: Should You Use the Bible to Prove the Bible?</title>
+                <contentId>10015</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor answer viewer questions about whether or not a Christian should use the Bible when proving the Bible, how the scientific laws of thermodynamics agree with Scripture and the fallacies of a gap between Genesis 1:1 and 1:2.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>09/15/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E16.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E16.jpg">
+		<title>Episode 16: Why Did God Order the Killing of Children</title>
+                <contentId>10016</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss the judgments of God in the Old Testament; What angels might have looked like; and the assumptions built into radiometric dating.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>09/23/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E17.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E17.jpg">
+		<title>Episode 17: Will You Do a 180?</title>
+                <contentId>10017</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul welcome special guest Ray Comfort to discuss the life-changing video “180,” the biggest evangelistic project ever attempted by Living Waters ministry.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>09/29/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E18.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E18.jpg">
+		<title>Episode 18: Did a giant asteroid kill off the dinosaurs; Are there aliens and UFOS?</title>
+                <contentId>10018</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor answer viewers’ questions regarding dinosaurs, the earth’s magnetic field, and aliens.  </synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>10/14/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E19.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E19.jpg">
+		<title>Episode 19: Post-flood animals, the size of the Ark, and creation evangelism</title>
+                <contentId>10019</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul discuss inbreeding in post-flood animals; whether or not the Ark was big enough; what Genesis has to say about the virgin birth; and the role of creation science in evangelism.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>10/27/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E20.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E20.jpg">
+		<title>Episode 20: Who made God?</title>
+                <contentId>10020</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul discuss who made God; why presuppositional apologetics is not a circular argument; how High school students can deal with exam questions on evolution.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>11/10/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E21.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E21.jpg">
+		<title>Episode 21: Why evolution is not “science”</title>
+                <contentId>10021</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Evolutionists claim that evolution is “science” and creation is “religion.” Eric Hovind and Paul Taylor discuss why evolution has nothing to do with science.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>11/17/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E22.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E22.jpg">
+		<title>Episode 22: Evidence of a Young Earth: Part 1</title>
+                <contentId>10022</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Do we really know that the earth is ancient? Have we heard the evidence from the other side? Join Paul and Eric as they discuss the overwhelming evidence of a young earth.  </synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>12/01/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E23.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E23.jpg">
+		<title>Episode 23: More Evidence of a Young Earth</title>
+                <contentId>10023</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>How old is our planet? Billions of years or just thousands? You might be shocked to see where the evidence leads. Join Eric and Paul for part two of their series discussing the age of the earth.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>12/08/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E24.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E24.jpg">
+		<title>Episode 24: It Was Good: The Garden of Eden</title>
+                <contentId>10024</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>After God created the world, He saw that it was very good! Eric and Paul discuss the conditions of the original creation that may explain dinosaurs, giants, and people living hundreds of years.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>12/15/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E25.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E25.jpg">
+		<title>Episode 25: Dinosaurs with Man</title>
+                <contentId>10025</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Evidence for dinosaurs in modern history is abundant. Historical records substantiate the theory that dinosaurs lived with man. There is even reference to them in the Bible!</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>12/22/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E26.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E26.jpg">
+		<title>Episode 26: Fact vs. Faith in the Textbooks</title>
+                <contentId>10026</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Evolutionists claim that their theory is a concluded issue. The debate is over. Evolution is a fact. But this simply isn’t the case. Watch as Eric and Paul review the key “evidences” of evolutionism and demonstrate its total lack of fact.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>12/28/2011</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E27.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E27.jpg">
+		<title>Episode 27: What is the Truth About God?</title>
+                <contentId>10027</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Do you have a proper perspective of God? Watch as Eric Hovind uses evidence from space to challenge you to see God as much larger than ever before.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>01/05/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E28.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E28.jpg">
+		<title>Episode 28: Is the Bible True from Beginning to End?</title>
+                <contentId>10028</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Skeptics often claim that there are contradictions in the Bible. Is Scripture accurate regarding the value of pi or even the number of legs on a locust? Eric and Paul discuss why we can trust the Bible’s accuracy from beginning to end.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>01/19/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E29.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E29.jpg">
+		<title>Episode 29: Where was the Garden of Eden?</title>
+                <contentId>10029</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul discuss the days of Peleg, whether or not the laws of thermodynamics really apply to the creation versus evolution debate and where was the Garden of Eden.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>01/26/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E30.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E30.jpg">
+		<title>Episode 30: Asteroids and the “Fuzzy” Words of Evolutionists</title>
+                <contentId>10030</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul discuss evidence of water on asteroids, the ambiguous words of evolutionists, the life of Charles Darwin and whether or not the Bible teaches a flat earth.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>02/02/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E31.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E31.jpg">
+		<title>Episode 31: What Can We Learn About Noah’s Flood from Mount St. Helens?</title>
+                <contentId>10031</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Kyle Justice from Compel Media joins Eric and Paul to discuss recent research from Mount St. Helens in Washington. They cover how the catastrophe at Mount St. Helens provides clues to what it must have been like after Noah’s Flood.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>02/09/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E32.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E32.jpg">
+		<title>Episode 32: How Long Did it Take to Form the Grand Canyon?</title>
+                <contentId>10032</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul continue an interview with Kyle Justice discussing clues to the rapid formation of Grand Canyon and the amazing evidences of a worldwide flood given by the modern catastrophe at Mount St. Helens.  </synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>02/16/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E33.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E33.jpg">
+		<title>Episode 33: The Water for Noah’s Flood; Jews and Genesis</title>
+                <contentId>10033</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul answer how water from Noah’s flood could cover the tallest mountain. They also welcome special guest Gavriel Geffen to discuss what modern Jews believe about Genesis.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>03/08/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E34.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E34.jpg">
+		<title>Episode 34: Is there evidence of dinosaurs and man living together?</title>
+                <contentId>10034</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Is it possible that dinosaurs did not live millions of years ago, but lived at the same time as man? Eric and Paul welcome special guest, Ian Juby, to discuss the evidence including supposed dinosaur tracks alongside human footprints at the Paluxy River in Texas.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>03/15/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E35.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E35.jpg">
+		<title>Episode 35: Are today’s land features the result of a worldwide flood?</title>
+                <contentId>10035</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Are some of earth’s geologic features best described as the result of a worldwide flood?  Eric and Paul welcome Ian Juby for part two of a captivating discussion of evidence for the biblical flood.</synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>03/29/2012</date>
+        </item>
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E36.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/Season_1/S1E36.jpg">
+		<title>Episode 36: The Best of Creation Today Season One</title>
+                <contentId>10036</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl></streamUrl>
+                </media>
+                <synopsis>Eric and Paul celebrate one year of The Creation Today Show by revisiting some of the most fascinating (and humorous) moments: Dating fossils with John Mackay; How to be a Christian on a secular campus; Making a 180 with Ray Comfort; Evidences of a worldwide flood, and more.  </synopsis>
+                <genres>Show</genres>
+                <runtime>1712</runtime>
+                <date>04/12/2012</date>
+        </item>
+
+</feed>

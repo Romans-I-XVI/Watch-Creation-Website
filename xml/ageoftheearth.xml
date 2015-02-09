@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+	<!-- resultLength indicates the total number of results for this feed -->
+	<resultLength>4</resultLength>
+	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
+	<endIndex>4</endIndex>
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/na3-how-old-does-the-earth-look.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/na3-how-old-does-the-earth-look.jpg">
+		<title>How Old Does the Earth Look?</title>
+		<contentId>11001</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-3-dvd/na3-how-old-does-the-earth-look.mp4</streamUrl>
+		</media>
+		<synopsis>By Dr. Andrew Snelling</synopsis>
+		<genres>Clip</genres>
+		<runtime>258</runtime>
+		<date>09/23/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-1.jpg">
+		<title>Noah's Flood and the Earth's Age, Part 1</title>
+		<contentId>11002</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/noahs-flood-earths-age/noahs-flood-earths-age-1.mp4</streamUrl>
+		</media>
+		<synopsis>This presentation reveals the failed attempts of evolutionists to account for their proposed millions of years of earth history, and points to the true biblical age of our planet.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>930</runtime>
+		<date>04/16/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-2.jpg">
+		<title>Noah's Flood and the Earth's Age, Part 2</title>
+		<contentId>11003</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/noahs-flood-earths-age/noahs-flood-earths-age-2.mp4</streamUrl>
+		</media>
+		<synopsis>This presentation reveals the failed attempts of evolutionists to account for their proposed millions of years of earth history, and points to the true biblical age of our planet.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>930</runtime>
+		<date>04/16/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-3.jpg">
+		<title>Noah's Flood and the Earth's Age, Part 3</title>
+		<contentId>11004</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/noahs-flood-earths-age/noahs-flood-earths-age-3.mp4</streamUrl>
+		</media>
+		<synopsis>This presentation reveals the failed attempts of evolutionists to account for their proposed millions of years of earth history, and points to the true biblical age of our planet.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>930</runtime>
+		<date>04/16/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-4.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/noahs-flood-and-earths-age-4.jpg">
+		<title>Noah's Flood and the Earth's Age, Part 4</title>
+		<contentId>11005</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/noahs-flood-earths-age/noahs-flood-earths-age-4.mp4</streamUrl>
+		</media>
+		<synopsis>This presentation reveals the failed attempts of evolutionists to account for their proposed millions of years of earth history, and points to the true biblical age of our planet.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>930</runtime>
+		<date>04/16/2014</date>
+	</item>	
+
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-1.jpg">
+		<title>Radioactive and Radiocarbon Dating, Part 1</title>
+		<contentId>11006</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/radiocarbon-dating/radiocarbon-dating-1.mp4</streamUrl>
+		</media>
+		<synopsis>Few people who claim that radiometric dating proves the earth is billions of years old really understand the underlying assumptions. Using simple illustrations, Dr. Snelling examines these assumptions and equips viewers with information to counter the anti-biblical arguments.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>925</runtime>
+		<date>03/25/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-2.jpg">
+		<title>Radioactive and Radiocarbon Dating, Part 2</title>
+		<contentId>11007</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/radiocarbon-dating/radiocarbon-dating-2.mp4</streamUrl>
+		</media>
+		<synopsis>Few people who claim that radiometric dating proves the earth is billions of years old really understand the underlying assumptions. Using simple illustrations, Dr. Snelling examines these assumptions and equips viewers with information to counter the anti-biblical arguments.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>918</runtime>
+		<date>03/25/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-3.jpg">
+		<title>Radioactive and Radiocarbon Dating, Part 3</title>
+		<contentId>11008</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/radiocarbon-dating/radiocarbon-dating-3.mp4</streamUrl>
+		</media>
+		<synopsis>Few people who claim that radiometric dating proves the earth is billions of years old really understand the underlying assumptions. Using simple illustrations, Dr. Snelling examines these assumptions and equips viewers with information to counter the anti-biblical arguments.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>918</runtime>
+		<date>03/25/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-4.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/radiocarbon-dating-4.jpg">
+		<title>Radioactive and Radiocarbon Dating, Part 4</title>
+		<contentId>11009</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/radiocarbon-dating/radiocarbon-dating-4.mp4</streamUrl>
+		</media>
+		<synopsis>Few people who claim that radiometric dating proves the earth is billions of years old really understand the underlying assumptions. Using simple illustrations, Dr. Snelling examines these assumptions and equips viewers with information to counter the anti-biblical arguments.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>915</runtime>
+		<date>03/25/2014</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-1.jpg">
+		<title>The Origin of Old-Earth Geology, Part 1</title>
+		<contentId>11010</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-1.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-2.jpg">
+		<title>The Origin of Old-Earth Geology, Part 2</title>
+		<contentId>11011</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-2.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-3.jpg">
+		<title>The Origin of Old-Earth Geology, Part 3</title>
+		<contentId>11012</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-3.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-4.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-4.jpg">
+		<title>The Origin of Old-Earth Geology, Part 4</title>
+		<contentId>11013</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-4.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-5.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-5.jpg">
+		<title>The Origin of Old-Earth Geology, Part 5</title>
+		<contentId>11014</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-5.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-6.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-6.jpg">
+		<title>The Origin of Old-Earth Geology, Part 6</title>
+		<contentId>11015</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-6.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-7.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-7.jpg">
+		<title>The Origin of Old-Earth Geology, Part 7</title>
+		<contentId>11016</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-7.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>780</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-8.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/origin-of-old-earth-geology-8.jpg">
+		<title>The Origin of Old-Earth Geology, Part 8</title>
+		<contentId>11017</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/origin-old-earth-geology/origin-of-old-earth-geology-8.mp4</streamUrl>
+		</media>
+		<synopsis>The church’s compromise on biblical authority began before Darwin. This eye-opening talk by historian Terry Mortenson shows that biblical geologists defended biblical history (and exposed the fallacies in an old earth), but the church refused to listen.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>1957</runtime>
+		<date>12/03/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-2-11.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-2-11.jpg">
+		<title>Does Radiometric Dating Prove the Earth is Old?</title>
+		<contentId>11018</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-2-dvd/na2-does-radiometric-dating-prove-the-earth-is-old.mp4</streamUrl>
+		</media>
+		<synopsis>Dr. Andrew Snelling clip from "The New Answers DVD 2"</synopsis>
+		<genres>Clip</genres>
+		<runtime>180</runtime>
+		<date>03/05/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-2-10.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-2-10.jpg">
+		<title>Doesn't the Order of Fossils in the Rock Record Favor Long Ages?</title>
+		<contentId>11019</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-2-dvd/answers-dvd-2-10.mp4</streamUrl>
+		</media>
+		<synopsis>Dr. Andrew Snelling clip from "The New Answers DVD 1"</synopsis>
+		<genres>Clip</genres>
+		<runtime>180</runtime>
+		<date>02/26/2013</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-7.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-7.jpg">
+		<title>Does Distant Starlight Prove the Univers Is Old?</title>
+		<contentId>11020</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-dvds/na1-does-distant-starlight-prove-the-universe-is-old.mp4</streamUrl>
+		</media>
+		<synopsis>Dr. Jason Lisle clip from "The New Answers DVD 1"</synopsis>
+		<genres>Clip</genres>
+		<runtime>240</runtime>
+		<date>11/13/2012</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-4.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-4.jpg">
+		<title>Doesn't Carbon-14 Dating Disprove the Bible?</title>
+		<contentId>11021</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-dvds/na1-doesnt-carbon-dating-disprove-the-bible.mp4</streamUrl>
+		</media>
+		<synopsis>Dr. Andrew Snelling clip from "The New Answers DVD 1"</synopsis>
+		<genres>Clip</genres>
+		<runtime>240</runtime>
+		<date>10/16/2012</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/answers-dvd-1-2.jpg">
+		<title>Why Shouldn’t Christians Accept Millions of Years?</title>
+		<contentId>11022</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/new-answers-dvds/na1-why-shouldnt-christians-accept-millions-of-years.mp4</streamUrl>
+		</media>
+		<synopsis>Dr. Terry Mortenson clip from "The New Answers DVD 1"</synopsis>
+		<genres>Clip</genres>
+		<runtime>240</runtime>
+		<date>10/02/2012</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/six-days-clip.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/six-days-clip.jpg">
+		<title>In Six Days Clip about Time and Evolution</title>
+		<contentId>11023</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/foundations/in-six-days-clip-1.mp4</streamUrl>
+		</media>
+		<synopsis>Ken Ham clip from "In Six Days"</synopsis>
+		<genres>Clip</genres>
+		<runtime>120</runtime>
+		<date>06/04/2012</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/cto-6_dating.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/cto-6_dating.jpg">
+		<title>Radiometric Dating</title>
+		<contentId>11024</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/check-this-out/cto-6_dating.mp4</streamUrl>
+		</media>
+		<synopsis>Clip from "Check This Out"</synopsis>
+		<genres>Clip</genres>
+		<runtime>192</runtime>
+		<date>06/27/2011</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT1.jpg">
+		<title>Millions of Years: Where Did the Idea Come From? Part 1</title>
+		<contentId>11025</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/millions-of-years-mortenson/30-9-136_PT1.mp4</streamUrl>
+		</media>
+		<synopsis>Using high quality illustrations, Dr. Mortenson races through the last century and a half to reveal that what one believes about the age of the earth is a worldview conflict of foundational importance.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>1200</runtime>
+		<date>08/26/2008</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT2.jpg">
+		<title>Millions of Years: Where Did the Idea Come From? Part 2</title>
+		<contentId>11026</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/millions-of-years-mortenson/30-9-136_PT2.mp4</streamUrl>
+		</media>
+		<synopsis>Using high quality illustrations, Dr. Mortenson races through the last century and a half to reveal that what one believes about the age of the earth is a worldview conflict of foundational importance.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>1500</runtime>
+		<date>08/26/2008</date>
+	</item>	
+
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/AnswersInGenesis/Images/AgeOfTheEarth/30-9-136_PT3.jpg">
+		<title>Millions of Years: Where Did the Idea Come From? Part 3</title>
+		<contentId>11027</contentId>
+		<contentType></contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://cdn.answersingenesis.org/vid/ondemand/millions-of-years-mortenson/30-9-136_PT3.mp4</streamUrl>
+		</media>
+		<synopsis>Using high quality illustrations, Dr. Mortenson races through the last century and a half to reveal that what one believes about the age of the earth is a worldview conflict of foundational importance.</synopsis>
+		<genres>Presentation</genres>
+		<runtime>1206</runtime>
+		<date>08/26/2008</date>
+	</item>	
+
+</feed>
