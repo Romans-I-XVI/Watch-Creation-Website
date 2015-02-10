@@ -42,22 +42,15 @@ if(isset($_POST['submit'])) {
 				
 				<div id="header-top-left">
 					<ul class="sf-menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="about.php">About</a></li>
-						<li class="current-menu-item"><a href="contact.php">Contact</a></li>
-						<li><a href="#">Purchase</a>
+						<li><a href="#">Organizations</a>
 							<ul>
-								<li class="current"><a href="#">Sample drop-down</a></li>
-								<li><a href="#aba">Example 1</a></li>
-								<li><a href="#abb">Example 2</a></li>
-								<li><a href="#abc">Example 3</a> 
-									<ul>
-										<li class="current"><a href="#">Keep's on going</a></li>
-										<li><a href="#aba">Example 4</a></li>
-										<li><a href="#abb">Example 5</a></li>
-										<li><a href="#abcc">Example 6</a></li>
-									</ul>
-								</li>
+								<li><a href="video-player.php?id=0">Creation Today</a></li>
+								<li><a href="video-player.php?id=1">Answers In Genesis</a></li>
+								<li><a href="video-player.php?id=2">Creation Truth Foundation</a></li>
+								<li><a href="video-player.php?id=3">Awesome Science Media</a></li>
+								<li><a href="video-player.php?id=4">Museum Of Earth History</a></li>
+								<li><a href="video-player.php?id=5">The Creation Museum</a></li>
+								<li><a href="video-player.php?id=6">Northwest Creation Network</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -94,38 +87,9 @@ if(isset($_POST['submit'])) {
 			<div id="navigation-narrow">
 				<nav>
 					<ul class="sf-menu">
-						<li><a href="index.php">Home</a>
-							<ul>
-								<li><a href="index-v2.php">Homepage v2</a></li>
-								<li><a href="index-v3.php">Homepage v3</a></li>
-								<li><a href="index-v4.php">Homepage v4</a></li>
-								<li><a href="index-vertical-slider.php">Homepage vertical slider</a></li>
-							</ul>
-						</li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="styles.php">Styles</a>
-							<ul>
-								<li><a href="styles.php">Typography styles</a></li>
-								<li><a href="full-width.php">Full width example</a> </li>
-								<li><a href="sidebar-left.php">Sidebar left</a></li>
-								<li><a href="sidebar-right.php">Sidebar right</a></li>
-							</ul>
-						</li>
-						<li><a href="portfolio.php">Portfolio</a>
-							<ul>
-								<li><a href="one-column-portfolio.php">One column portfolio</a></li>
-								<li><a href="two-column-portfolio.php">Two column portfolio</a></li>
-								<li><a href="three-column-portfolio.php">Three column porfolio</a></li>
-								<li><a href="portfolio.php">Four column portfolio</a></li>
-								<li><a href="portfolio-sidebar.php">Four column portfolio w/ sidebar</a></li>
-								<li><a href="portfolio-sidebar-three.php">Three column portfolio w/ sidebar</a></li>
-								<li><a href="portfolio-sidebar-two.php">Two column portfolio w/ sidebar</a></li>
-								<li><a href="portfolio-sidebar-one.php">One column portfolio w/ sidebar</a></li>
-								<li><a href="portfolio-single.php">Single portfolio</a></li>
-								<li><a href="portfolio-single-v2.php">Single Portfolio v2</a></li>
-							</ul>
-						</li>
-						<li><a href="blog.php">Blog</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="store.php">Store</a></li>
+						<li><a href="myvideos.php">My Videos</a></li>
 						<li class="current-menu-item"><a href="contact.php">Contact</a></li>
 					</ul>
 					<div class="clearfix"></div>
@@ -149,7 +113,7 @@ if(isset($_POST['submit'])) {
 				
 			<div class="page-content content-sidebar">
 				<h1 class="page-title">Contact us</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas augue diam, dapibus eget accumsan non, ullamcorper in ante. Nullam semper justo ut risus cursus vel faucibus leo aliquam. Vestibulum sed velit elit, vel malesuada tortor. Quisque congue metus in augue cursus placerat lacinia tellus volutpat. Curabitur bibendum pellentesque fringilla. Donec vestibulum dapibus elit sed ultrices. Sed nec lacus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p></p>
 				
 				
 				<h3>Get in touch!</h3>

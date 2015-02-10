@@ -11,11 +11,11 @@
    		return($text);
 	}
  ?>
- <script>
+ <script> 
  	function ajax_reload(title,synopsis,date,img_url){
  		title = title.replace(/'/g, "\'");
  		synopsis = synopsis.replace(/'/g, "\'");
- 		document.getElementById("showcase").innerHTML = '<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a></div></div><!-- close .slider-right --></div></div>';
+ 		$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  		}
  </script>
 
@@ -27,10 +27,17 @@
 				
 				<div id="header-top-left">
 					<ul class="sf-menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="store.php">Store</a></li>
-						<li><a href="myvideos.php">My Videos</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="#">Organizations</a>
+							<ul>
+								<li><a href="video-player.php?id=0">Creation Today</a></li>
+								<li><a href="video-player.php?id=1">Answers In Genesis</a></li>
+								<li><a href="video-player.php?id=2">Creation Truth Foundation</a></li>
+								<li><a href="video-player.php?id=3">Awesome Science Media</a></li>
+								<li><a href="video-player.php?id=4">Museum Of Earth History</a></li>
+								<li><a href="video-player.php?id=5">The Creation Museum</a></li>
+								<li><a href="video-player.php?id=6">Northwest Creation Network</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div><!-- close #header-top-left -->
 
@@ -65,17 +72,10 @@
 			<div id="navigation-narrow">
 				<nav>
 					<ul class="sf-menu">
-						<li><a href="#">Organizations</a>
-							<ul>
-								<li><a href="video-player.php?id=0">Creation Today</a></li>
-								<li><a href="video-player.php?id=1">Answers In Genesis</a></li>
-								<li><a href="video-player.php?id=2">Creation Truth Foundation</a></li>
-								<li><a href="video-player.php?id=3">Awesome Science Media</a></li>
-								<li><a href="video-player.php?id=4">Museum Of Earth History</a></li>
-								<li><a href="video-player.php?id=5">The Creation Museum</a></li>
-								<li><a href="video-player.php?id=6">Northwest Creation Network</a></li>
-							</ul>
-						</li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="store.php">Store</a></li>
+						<li><a href="myvideos.php">My Videos</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</nav>

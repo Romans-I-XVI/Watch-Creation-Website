@@ -52,9 +52,9 @@
 			<div id="navigation-narrow">
 				<nav>
 					<ul class="sf-menu">
-						<li class="current-menu-item"><a href="index.php">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li><a href="store.php">Store</a></li>
-						<li><a href="myvideos.php">My Videos</a></li>
+						<li class="current-menu-item"><a href="myvideos.php">My Videos</a></li>
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 					<div class="clearfix"></div>

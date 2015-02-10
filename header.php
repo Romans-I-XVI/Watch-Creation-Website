@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Primero | Site Template</title>
+	<title>Watch Creation</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -18,5 +18,15 @@
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.1.min.js"><\/script>')</script><!-- Local fall-back for Google CDN -->
 	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>
-
+	<?php
+	session_start();
+ 
+	$dbhost = "localhost"; // this will ususally be 'localhost', but can sometimes differ
+	$dbname = "watch_creation"; // the name of the database that you are going to use for this project
+	$dbuser = "root"; // the username that you created, or were given, to access your database
+	$dbpass = "Britt08"; // the password that you created, or were given, to access your database
+ 
+	mysql_connect($dbhost, $dbuser, $dbpass) or die("MySQL Error: " . mysql_error());
+	mysql_select_db($dbname) or die("MySQL Error: " . mysql_error());
+	?>
 </head>
