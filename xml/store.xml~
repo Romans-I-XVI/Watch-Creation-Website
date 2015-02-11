@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg">
+		<title>The Beauty of Pollination</title>
+		<contentId>Product_0001</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
+		</media>
+		<synopsis>The Beauty of Pollination</synopsis>
+		<genres>Clip</genres>
+		<runtime>238</runtime>
+	</item>	
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg">
+		<title>Museum Of Earth History Dallas</title>
+		<contentId>Product_0002</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Museum_of_Earth_History_Dallas.mp4</streamUrl>
+		</media>
+		<synopsis>Museum Of Earth History Dallas</synopsis>
+		<genres>Clip</genres>
+		<runtime>328</runtime>
+	</item>	
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg">
+		<title>Discover Your Origins</title>
+                <contentId>Product_0003</contentId>
+                <contentType>Clip</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Discover_Your_Origins.mp4</streamUrl>
+                </media>
+                <synopsis>Discover Your Origins</synopsis>
+                <genres>Clip</genres>
+                <runtime>38</runtime>
+        </item>
+<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg">
+		<title>The Beauty of Pollination</title>
+		<contentId>Product_0001</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
+		</media>
+		<synopsis>The Beauty of Pollination</synopsis>
+		<genres>Clip</genres>
+		<runtime>238</runtime>
+	</item>	
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg">
+		<title>Museum Of Earth History Dallas</title>
+		<contentId>Product_0002</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Museum_of_Earth_History_Dallas.mp4</streamUrl>
+		</media>
+		<synopsis>Museum Of Earth History Dallas</synopsis>
+		<genres>Clip</genres>
+		<runtime>328</runtime>
+	</item>	
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg">
+		<title>Discover Your Origins</title>
+                <contentId>Product_0003</contentId>
+                <contentType>Clip</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Discover_Your_Origins.mp4</streamUrl>
+                </media>
+                <synopsis>Discover Your Origins</synopsis>
+                <genres>Clip</genres>
+                <runtime>38</runtime>
+        </item>
+<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg">
+		<title>The Beauty of Pollination</title>
+		<contentId>Product_0001</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
+		</media>
+		<synopsis>The Beauty of Pollination</synopsis>
+		<genres>Clip</genres>
+		<runtime>238</runtime>
+	</item>	
+	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg">
+		<title>Museum Of Earth History Dallas</title>
+		<contentId>Product_0002</contentId>
+		<contentType>Clip</contentType>
+		<contentQuality>SD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Museum_of_Earth_History_Dallas.mp4</streamUrl>
+		</media>
+		<synopsis>Museum Of Earth History Dallas</synopsis>
+		<genres>Clip</genres>
+		<runtime>328</runtime>
+	</item>	
+        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg">
+		<title>Discover Your Origins</title>
+                <contentId>Product_0003</contentId>
+                <contentType>Clip</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Discover_Your_Origins.mp4</streamUrl>
+                </media>
+                <synopsis>Discover Your Origins</synopsis>
+                <genres>Clip</genres>
+                <runtime>38</runtime>
+        </item>
+</feed>

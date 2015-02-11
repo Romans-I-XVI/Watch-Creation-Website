@@ -1,34 +1,8 @@
-<?php include("header.php"); ?>
-
+<?php include("header.php");?>
 <body>
 	<header>
 		
-		<div id="header-top-container">
-			<div id="header-top">
-				
-				<div id="header-top-left">
-					<ul class="sf-menu">
-						<li><a href="#">Organizations</a>
-							<ul>
-								<li><a href="video-player.php?id=0">Creation Today</a></li>
-								<li><a href="video-player.php?id=1">Answers In Genesis</a></li>
-								<li><a href="video-player.php?id=2">Creation Truth Foundation</a></li>
-								<li><a href="video-player.php?id=3">Awesome Science Media</a></li>
-								<li><a href="video-player.php?id=4">Museum Of Earth History</a></li>
-								<li><a href="video-player.php?id=5">The Creation Museum</a></li>
-								<li><a href="video-player.php?id=6">Northwest Creation Network</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div><!-- close #header-top-left -->
-
-				<div id="header-top-right">
-					<div class="social-icons"><span>Connect with us:</span> <a href="http://twitter.com/" target="_blank"><img src="images/social-icons/twitter.png" width="20" height="20" alt="Twitter" class="transparent"></a> <a href="http://facebook.com/" target="_blank"><img src="images/social-icons/facebook.png" width="20" height="20" alt="Facebook" class="transparent"></a> <a href="http://youtube.com/" target="_blank"><img src="images/social-icons/youtube.png" width="20" height="20" alt="Youtube" class="transparent"></a> <a href="mailto:no-reply@email.com"><img src="images/social-icons/email.png" width="20" height="20" alt="E-mail" class="transparent"></a></div>
-				</div><!-- close #header-top-right -->
-				
-				<div class="clearfix"></div>
-			</div><!-- close #header-top -->
-		</div><!-- close #header-top-container -->
+		<?php include("header-top-container.php")?>
 		
 		
 		
@@ -68,40 +42,55 @@
 	
 	<div id="main" role="main">	
 		
-		
-		<div class="bread-crumbs"><span>You are here:</span>  Home</div>
-		
-		
+		 
+		<div class="bread-crumbs"><span>You are here:</span>  My Videos</div>
 		<div class="content-container">
-			
-			
-				
+			<div id="showcase" class="showcase">
+			</div>
+		</div>
+		<div class="content-container-base-pagination" id="first-base-pagination"></div>
+		<div class="content-container">	
 			<div class="page-content">
-				
-				
-				
-				<h1 class="page-title">Organizations</h1>
+				<h1 class="page-title">Purchased Videos</h1>
 				<p class="page-description"></p>
 				
 				<?php
-					$xml=simplexml_load_file("http://s3.amazonaws.com/roku-creation-channel/categories.xml") or die("Error: Cannot create object");
+				echo '<div class="myvideos">';
+				if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
+					$xml=simplexml_load_file("./xml/store.xml") or die("Error: Cannot create object");
 					$counter="";
-					foreach($xml->children() as $organization) {
-						$counter+=1;
-						echo '<div class="grid4column">
-								<div class="portfolio-list">
-								<span class="gallery-hover">
-									<a href="video-player.php?id='.$organization['id'].'"><img src="'.$organization['hd_img'].'" width="202" height="152" alt="" /></a>
-								</span>
-								<h5><a href="video-player.php?id='.$organization['id'].'">'.$organization['title'].'</a></h5>
+					foreach($xml->children() as $product) {
+						foreach($_SESSION['Products'] as $product_id => $owned) {
+							if ($product->contentId == $product_id && $owned) {
+								$mydate = strtotime($product->date);
+								if ($mydate) {
+									$mydate=date('F jS Y', $mydate);
+								}
+								$title=str_replace("'","\'",$product->title);
+								$synopsis=str_replace("'","\'",$product->synopsis);
+								$title=str_replace('"','&quot;',$title);
+								$synopsis=str_replace('"','&quot;',$synopsis);
+								$img_url=$product['hdImg'];
+								echo '
+								<div class="grid4column">
+									<div class="portfolio-list">
+									<div class="gallery-hover">
+										<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+									</div>
+									<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
+									<p>'.$mydate.'</p>
+									</div><!-- close .portfolio-list -->
 								</div>
-							</div>';  
-						if ($counter == 4){
-							$counter="";
-							echo '<div class="clearfix"></div>';
-							
+								';
+							}
 						}
 					}
+				
+				echo '</div>';
+				}
+				else {
+					echo '<p>Please log in to manage your videos.<p>'; 
+				}
 					
 				?> 
 				
@@ -123,5 +112,9 @@
 	</div><!-- close #main -->
 	
 	
-	
+
+<script>
+	$("#showcase").hide()
+	$("#first-base-pagination").hide()
+</script>	
 <?php include("footer.php"); ?>

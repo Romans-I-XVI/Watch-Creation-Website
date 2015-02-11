@@ -1403,7 +1403,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left:	10em; /* ma
 /* -------------------- B. TOP NAVIGATION SKIN -------------------- */
 .ie7 .sf-menu li:hover ul, .ie7 .sf-menu li.sfHover ul { top: 2.2em;}
 nav a {font-size:14px; font-weight:700;}
-#header-top .sf-menu { margin:5px 0 0 0; position:relative; left:-17px; }
+#header-top .sf-menu { margin:5px 0 0 0; position:relative; left:-17px; font-size:14px}
 #header-top .sf-menu li:hover ul, #header-top .sf-menu li.sfHover ul { z-index:525;  }
 #header-top .sf-menu a {
 	padding:5px 17px 12px 17px;  
