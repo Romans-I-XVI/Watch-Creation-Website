@@ -210,6 +210,7 @@ p {padding-bottom:18px;}
 	border-bottom:1px solid #bababa;
 }
 .button:hover, body input#submit:hover, body #main .sidebar input.wpcf7-submit:hover, input.wpcf7-submit:hover, body footer .wpcf7 input.wpcf7-submit:hover {background-position:bottom left; text-decoration:none;}
+.slider-right .button {margin-right:8px}
 .page-content {width:900px; margin:0 auto; padding-top:35px; }
 .team-member {padding:10px 0px 20px 0px;}
 .team-member img {-moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow:  none !important;}

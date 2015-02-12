@@ -4,8 +4,6 @@
 		
 		<?php include("header-top-container.php")?>
 		
-		
-		
 		<div id="header-gradient">
 			
 			<div id="header-logo-container">
@@ -51,6 +49,66 @@
 		<div class="content-container-base-pagination" id="first-base-pagination"></div>
 		<div class="content-container">	
 			<div class="page-content">
+				
+				<h1 class="page-title">Watchlist</h1>
+				
+				<?php
+				echo '<div class="myvideos">';
+				if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
+					$counter="";	
+					$watchlist_query=	mysql_query("SELECT VideoID FROM `watchlist` WHERE UserID = ".$_SESSION['UserID']);
+					$watchlist=array();
+					while ($row_data = mysql_fetch_assoc($watchlist_query)) {
+						array_push($watchlist, array_shift(array_values($row_data)));
+					}
+					foreach(glob("{xml/*.xml}",GLOB_BRACE) as $filename) {
+						$xml=simplexml_load_file($filename) or die("Error: Cannot create object");
+						foreach($xml->children() as $item) {
+							foreach($watchlist as $watchlist_item) {
+								
+								if ($item->contentId == $watchlist_item) {
+									$mydate = strtotime($item->date);
+									if ($mydate) {
+										$mydate=date('F jS Y', $mydate);
+									}
+									$title=str_replace("'","\'",$item->title);
+									$synopsis=str_replace("'","\'",$item->synopsis);
+									$title=str_replace('"','&quot;',$title);
+									$synopsis=str_replace('"','&quot;',$synopsis);
+									$img_url=$item['hdImg'];
+									echo '
+									<div class="grid4column">
+										<div class="portfolio-list">
+										<div class="gallery-hover">
+											<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+										</div>
+										<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
+										<p>'.$mydate.'</p>
+										</div><!-- close .portfolio-list -->
+									</div>
+									';
+								}
+							}
+						}
+					}
+				echo '</div>';
+				}
+				else {
+					echo '<p>Please log in to manage your videos.<p>'; 
+				}
+					
+				?> 
+				
+				
+				
+				
+				
+				<br><br><br>
+				<br><br><br>
+				<br><br><br>
+				<br><br><br>
+				
+				
 				<h1 class="page-title">Purchased Videos</h1>
 				<p class="page-description"></p>
 				
@@ -93,9 +151,6 @@
 				}
 					
 				?> 
-				
-				
-				
 				
 				
 			

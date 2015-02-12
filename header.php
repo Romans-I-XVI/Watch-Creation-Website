@@ -23,16 +23,26 @@
     		$.get("logout.php");
     		return false;
 		}
- 		function ajax_reload(title,synopsis,date,img_url){
+		function add_to_watchlist(id) {
+			$.ajax({ url: 'add_to_watchlist.php',
+         data: {video_id: id},
+         type: 'post',
+         success: function() {
+                      alert("Video added to watchlist");
+                  }
+		});
+		
+		}
+ 		function ajax_reload(title,synopsis,date,img_url,contentid){
  			title = title.replace(/'/g, "\'");
  			synopsis = synopsis.replace(/'/g, "\'");
- 			$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 			$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a><a href="#showcase" onclick="add_to_watchlist('+contentid+')" class="button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  		}
  		function ajax_reload_store(title,synopsis,date,img_url,owned,purchase_item_id){
  			title = title.replace(/'/g, "\'");
  			synopsis = synopsis.replace(/'/g, "\'");
  			if (owned==1) {
- 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a><a href="#showcase" onclick="add_to_watchlist('+contentid+')" class="button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  				}
  			else {
  				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="purchase.php?purchase_item_id='+purchase_item_id+'" class="button">Buy</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
