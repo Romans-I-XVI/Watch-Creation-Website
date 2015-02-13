@@ -1,4 +1,40 @@
 <?php include("header.php");?>
+<!-- Scripts Specific To This Page-->
+<script>
+	function add_remove_watchlist(id) {
+		$.ajax({ url: 'add_remove_watchlist.php',
+         data: {video_id: id},
+         type: 'post'
+		});
+		if ($('#watchlist_button:contains("Add To Watchlist")').length > 0){
+    		$("#watchlist_button").text("Remove From Watchlist");
+    		}
+    	else {
+    		$("#watchlist_button").text("Add To Watchlist");
+    		}
+	}
+	
+	function ajax_reload(title,synopsis,date,img_url,contentid){
+		$.ajax({ url: 'check_watchlist.php',
+		 async: false,
+         data: {video_id: contentid},
+         type: 'post',
+         success: function(data) {
+                    in_watchlist = data;
+                  }
+		});
+		title = title.replace(/'/g, "\'");
+		synopsis = synopsis.replace(/'/g, "\'");
+		if (in_watchlist == false) {
+			$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist('+contentid+')" class="button" id="watchlist_button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+		}
+		else {
+			$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist('+contentid+')" class="button" id="watchlist_button">Remove From Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+		}
+	}
+</script>
+
+</head>
 <body>
 	<header>
 		
@@ -56,16 +92,16 @@
 				echo '<div class="myvideos">';
 				if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
 					$counter="";	
-					$watchlist_query=	mysql_query("SELECT VideoID FROM `watchlist` WHERE UserID = ".$_SESSION['UserID']);
+					$watchlist_query=	mysql_query("SELECT VideoID FROM `watchlist` WHERE UserID = ".$_SESSION['UserID']." ORDER BY watchlist.TimeStamp ASC");
 					$watchlist=array();
 					while ($row_data = mysql_fetch_assoc($watchlist_query)) {
 						array_push($watchlist, array_shift(array_values($row_data)));
 					}
-					foreach(glob("{xml/*.xml}",GLOB_BRACE) as $filename) {
-						$xml=simplexml_load_file($filename) or die("Error: Cannot create object");
-						foreach($xml->children() as $item) {
-							foreach($watchlist as $watchlist_item) {
-								
+					
+					foreach($watchlist as $watchlist_item) {
+						foreach(glob("{xml/*.xml}",GLOB_BRACE) as $filename) {
+							$xml=simplexml_load_file($filename) or die("Error: Cannot create object");
+							foreach($xml->children() as $item) {
 								if ($item->contentId == $watchlist_item) {
 									$mydate = strtotime($item->date);
 									if ($mydate) {
@@ -73,6 +109,7 @@
 									}
 									$title=str_replace("'","\'",$item->title);
 									$synopsis=str_replace("'","\'",$item->synopsis);
+									$contentid= $item->contentId;	
 									$title=str_replace('"','&quot;',$title);
 									$synopsis=str_replace('"','&quot;',$synopsis);
 									$img_url=$item['hdImg'];
@@ -80,13 +117,14 @@
 									<div class="grid4column">
 										<div class="portfolio-list">
 										<div class="gallery-hover">
-											<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+											<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\',\'myvideos_watchlist_remove\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
 										</div>
-										<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
+										<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\',\'myvideos_watchlist_remove\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
 										<p>'.$mydate.'</p>
 										</div><!-- close .portfolio-list -->
 									</div>
 									';
+									break 2;
 								}
 							}
 						}
