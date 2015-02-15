@@ -1,29 +1,4 @@
 <?php include("header.php"); ?>
-</head>
-<script>
-	function add_remove_watchlist(id) {
-		$.ajax({ url: 'add_remove_watchlist.php',
-         data: {video_id: id},
-         type: 'post'
-		});
-		if ($('#watchlist_button:contains("Add To Watchlist")').length > 0){
-    		$("#watchlist_button").text("Remove From Watchlist");
-    		}
-    	else {
-    		$("#watchlist_button").text("Add To Watchlist");
-    		}
-	}
-	function ajax_reload(title,synopsis,date,img_url,owned,purchase_item_id){
-	title = title.replace(/'/g, "\'");
-	synopsis = synopsis.replace(/'/g, "\'");
-	if (owned==1) {
-		$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a><a href="#showcase" onclick="add_remove_watchlist('+contentid+')" class="button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
-		}
-	else {
-		$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="purchase.php?purchase_item_id='+purchase_item_id+'" class="button">Buy</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
-		}
-	}
-</script>
 <body>
 	<header>
 		
@@ -80,7 +55,7 @@
 			
 				
 			<div class="page-content">
-				<h1 class="page-title">Purchased Videos</h1>
+				<h1 class="page-title">Store</h1>
 				<p class="page-description"></p>
 				
 				<?php
@@ -100,14 +75,14 @@
 								$title=str_replace('"','&quot;',$title);
 								$synopsis=str_replace('"','&quot;',$synopsis);
 								$img_url=$product['hdImg'];
-								$item_id=$product->contentId;
+								$contentid=$product->contentId;
 								echo '
 								<div class="grid4column">
 									<div class="portfolio-list">
 									<div class="gallery-hover">
-										<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$item_id.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+										<a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
 									</div>
-									<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$item_id.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
+									<h5><a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
 									<p>'.$mydate.'</p>
 									</div><!-- close .portfolio-list -->
 								</div>
@@ -119,7 +94,33 @@
 				echo '</div>';
 				}
 				else {
-					echo '<p>Please log in to manage your videos.<p>'; 
+				$xml=simplexml_load_file("./xml/store.xml") or die("Error: Cannot create object");
+				$counter="";
+				foreach($xml->children() as $product) {
+					$mydate = strtotime($product->date);
+					if ($mydate) {
+						$mydate=date('F jS Y', $mydate);
+					}
+					$title=str_replace("'","\'",$product->title);
+					$synopsis=str_replace("'","\'",$product->synopsis);
+					$title=str_replace('"','&quot;',$title);
+					$synopsis=str_replace('"','&quot;',$synopsis);
+					$img_url=$product['hdImg'];
+					$contentid=$product->contentId;
+					echo '
+					<div class="grid4column">
+						<div class="portfolio-list">
+						<div class="gallery-hover">
+							<a href="#showcase" onclick="ajax_reload_store_no_login(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+						</div>
+						<h5><a href="#showcase" onclick="ajax_reload_store_no_login(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
+						<p>'.$mydate.'</p>
+						</div><!-- close .portfolio-list -->
+					</div>
+					';
+				}
+				
+				echo '</div>';
 				}
 					
 				?> 
@@ -142,8 +143,8 @@
 	</div><!-- close #main -->
 	<div id="purchase_item"></div>
 	
-<script>
-	$("#showcase").hide()
-	$("#first-base-pagination").hide()
-</script>	
+	<script>
+		$("#showcase").hide()
+		$("#first-base-pagination").hide()
+	</script>	
 <?php include("footer.php"); ?>

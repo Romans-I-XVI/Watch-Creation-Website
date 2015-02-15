@@ -23,6 +23,23 @@
     		$.get("logout.php");
     		return false;
 		}
+		function myvideos_add_remove_watchlist(title,synopsis,date,img_url,contentid) {
+			$.ajax({ url: 'add_remove_watchlist.php',
+	         data: {video_id: contentid},
+	         type: 'post'
+			});
+			if ($('#watchlist_button:contains("Add To Watchlist")').length > 0){
+        		$("#watchlist_button").text("Remove From Watchlist");
+        		$("#watchlist").append('<div class="grid4column" id="'+contentid+'"><div class="portfolio-list"><div class="gallery-hover"><a href="#showcase" onclick="ajax_reload_myvideos(\''+title+'\',\''+synopsis+'\',\''+date+'\',\''+img_url+'\',\''+contentid+'\'); show_pagination();"><img src="'+img_url+'" width="202" height="114" alt="" /></a></div><h5><a href="#showcase" onclick="ajax_reload_myvideos(\''+title+'\',\''+synopsis+'\',\''+date+'\',\''+img_url+'\',\''+contentid+'\'); show_pagination();">'+title+'</a></h5><p>'+date+'</p></div><!-- close .portfolio-list --></div>')
+        		}
+        	else {
+        		$("#watchlist_button").text("Add To Watchlist");
+				$("#"+contentid).remove()
+        		}
+			$("#showcase").hide()
+			$("#first-base-pagination").hide()
+		}
+		
 		function add_remove_watchlist(id) {
 			$.ajax({ url: 'add_remove_watchlist.php',
 	         data: {video_id: id},
@@ -47,22 +64,65 @@
 			});
  			title = title.replace(/'/g, "\'");
  			synopsis = synopsis.replace(/'/g, "\'");
- 			if (in_watchlist == false) {
- 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist('+contentid+')" class="button" id="watchlist_button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 			if (in_watchlist != -1) {
+	 			if (in_watchlist == false) {
+	 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist(\''+contentid+'\')" class="button" id="watchlist_button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+	 			}
+	 			else {
+	 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist(\''+contentid+'\')" class="button" id="watchlist_button">Remove From Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+	 			}
  			}
  			else {
- 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist('+contentid+')" class="button" id="watchlist_button">Remove From Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  			}
  		}
- 		function ajax_reload_store(title,synopsis,date,img_url,owned,purchase_item_id){
+ 		
+ 		function ajax_reload_myvideos(title,synopsis,date,img_url,contentid){
+ 			$.ajax({ url: 'check_watchlist.php',
+ 			 async: false,
+	         data: {video_id: contentid},
+	         type: 'post',
+	         success: function(data) {
+	                    in_watchlist = data;
+	                  }
+			});
+ 			title = title.replace(/'/g, "\'");
+ 			synopsis = synopsis.replace(/'/g, "\'");
+ 			if (in_watchlist == false) {
+ 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="myvideos_add_remove_watchlist(\''+title+'\',\''+synopsis+'\',\''+date+'\',\''+img_url+'\',\''+contentid+'\')" class="button" id="watchlist_button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 			}
+ 			else {
+ 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="myvideos_add_remove_watchlist(\''+title+'\',\''+synopsis+'\',\''+date+'\',\''+img_url+'\',\''+contentid+'\')" class="button" id="watchlist_button">Remove From Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 			}
+ 		}
+ 		function ajax_reload_store(title,synopsis,date,img_url,owned,contentid){
  			title = title.replace(/'/g, "\'");
  			synopsis = synopsis.replace(/'/g, "\'");
  			if (owned==1) {
- 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="" class="button">Download</a><a href="#showcase" onclick="add_to_watchlist('+contentid+')" class="button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 				$.ajax({ url: 'check_watchlist.php',
+	 			 async: false,
+		         data: {video_id: contentid},
+		         type: 'post',
+		         success: function(data) {
+		                    in_watchlist = data;
+		                  }
+				});
+	 			if (in_watchlist == false) {
+	 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist(\''+contentid+'\')" class="button" id="watchlist_button">Add To Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+	 				}
+	 			else {
+	 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a class="button">Download</a><a onclick="add_remove_watchlist(\''+contentid+'\')" class="button" id="watchlist_button">Remove From Watchlist</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+	 				}
+ 				
  				}
  			else {
- 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="purchase.php?purchase_item_id='+purchase_item_id+'" class="button">Buy</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
+ 				$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="purchase.php?purchase_item_id='+contentid+'" class="button">Buy</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  				}
+ 			}
+ 		function ajax_reload_store_no_login(title,synopsis,date,img_url,contentid){
+ 			title = title.replace(/'/g, "\'");
+ 			synopsis = synopsis.replace(/'/g, "\'");
+ 			$("#showcase").hide().html('<div class="showcase-slide"><div class="showcase-content"><div class="slider-left"><img src="'+img_url+'" width="560" height="315" </img></div><!-- close .slider-left --><div class="slider-right"><h2>'+title+'</h2><div class="post-details-slider">'+date+'</div><p>'+synopsis+'</p><div class="more-link-slider"><a href="register.php" class="button">Buy</a></div></div><!-- close .slider-right --></div></div>').fadeIn(800);
  			}
  		function show_pagination(){
  			$("#first-base-pagination").show()
@@ -88,3 +148,4 @@
 	mysql_connect($dbhost, $dbuser, $dbpass) or die("MySQL Error: " . mysql_error());
 	mysql_select_db($dbname) or die("MySQL Error: " . mysql_error());
 	?>
+</head>

@@ -3,7 +3,7 @@
 	$xml=simplexml_load_file("http://s3.amazonaws.com/roku-creation-channel/categories.xml") or die("Error: Cannot create object");
 	$child=$xml->category[$id];
  ?>
-</head>
+
 <body>
 	<header>
 		

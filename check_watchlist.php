@@ -12,12 +12,17 @@
 	<?php 
 	if(isset($_POST['video_id']) && !empty($_POST['video_id'])) {
 	    $video_id = $_POST['video_id'];
-		$result = mysql_query("SELECT `UserID`, `VideoID` FROM `watchlist` WHERE UserID=".$_SESSION['UserID']." AND VideoID=".$video_id."");
-		if (mysql_num_rows($result) == 0) {
-			echo false;
+		$result = mysql_query("SELECT `UserID`, `VideoID` FROM `watchlist` WHERE UserID=".$_SESSION['UserID']." AND VideoID= '".$video_id."'");
+		if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
+			if (mysql_num_rows($result) == 0) {
+				echo false;
+				}
+			else {
+				echo true;
+				}
 			}
 		else {
-			echo true;
+			echo -1;
 			}
 		}
 	?>
