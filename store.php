@@ -75,14 +75,15 @@
 								$title=str_replace('"','&quot;',$title);
 								$synopsis=str_replace('"','&quot;',$synopsis);
 								$img_url=$product['hdImg'];
+								$video_url=$product->media->streamUrl;
 								$contentid=$product->contentId;
 								echo '
 								<div class="grid4column">
 									<div class="portfolio-list">
 									<div class="gallery-hover">
-										<a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+										<a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
 									</div>
-									<h5><a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
+									<h5><a href="#showcase" onclick="ajax_reload_store(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$owned.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
 									<p>'.$mydate.'</p>
 									</div><!-- close .portfolio-list -->
 								</div>

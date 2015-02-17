@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <feed>
-	<!-- resultLength indicates the total number of results for this feed -->
-	<resultLength>4</resultLength>
-	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
-	<endIndex>4</endIndex>
 	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationTruthFoundation/Images/DrSharp/The_Truth_About_Dinosaurs.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationTruthFoundation/Images/DrSharp/The_Truth_About_Dinosaurs.jpg">
 		<title>The Truth About Dinosaurs</title>
 		<contentId>12001</contentId>
@@ -47,8 +43,7 @@
 			<streamBitrate>0</streamBitrate>
 			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
 		</media>
-		<synopsis>The earth—tilted at the perfect degree to maintain the right conditions for life on this planet. The sun—located at the perfect distance from the earth to provide light and heat without destroying vital life elements. Living organisms—working inexplicably together to sustain life. There is only one thing that can explain these wonders: Intelligent Design. This design can be seen everywhere, from the location of stars and galaxies to the most intricate details of nature. In this program, Dr. Sharp will guide you through our amazing universe, pointing out the handprints of God that surround us. Hear the mathematical probabilities for these features happening by chance, and witness the flawless design of the omnipotent Creator.
-</synopsis>
+		<synopsis>The earth—tilted at the perfect degree to maintain the right conditions for life on this planet. The sun—located at the perfect distance from the earth to provide light and heat without destroying vital life elements. Living organisms—working inexplicably together to sustain life. There is only one thing that can explain these wonders: Intelligent Design. This design can be seen everywhere, from the location of stars and galaxies to the most intricate details of nature. In this program, Dr. Sharp will guide you through our amazing universe, pointing out the handprints of God that surround us. Hear the mathematical probabilities for these features happening by chance, and witness the flawless design of the omnipotent Creator.</synopsis>
 		<genres>Presentation</genres>
 		<runtime>2495</runtime>
 		<date>01/30/2012</date>

@@ -629,7 +629,7 @@ input, textarea {background:#f8f8f8; border:1px solid #e7e7e7; font-size:14px; p
 .login-form div {margin-top:7px; margin-bottom:-10px;font-size:14px}
 .login-form div p {display:inline}
 .login-form div a {display:inline}
-#loginform fieldset input {background:#f8f8f8; border:1px solid #e7e7e7; font-size:12px; margin-top:-3px; padding:2px; color:#666;}
+#loginform fieldset input {background:#f8f8f8; border:1px solid #e7e7e7; font-size:13px; margin:-3px 1px 0; padding:2px; color:#666;}
 #loginform fieldset label {font-size:12px;}
 input:focus, textarea:focus {  border: 1px solid #bddae3; -webkit-box-shadow: 0px 0px 4px #6a9ec9; -moz-box-shadow: 0px 0px 4px #6a9ec9; box-shadow: 0px 0px 4px #6a9ec9;}
 #contactform div {padding-bottom:24px;}

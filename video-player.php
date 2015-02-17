@@ -62,29 +62,34 @@
 		            flush();
 		            echo '<ul class="tabNavigation">';
 		        	foreach($child->children() as $section){
-		        		echo '<li><a href="#'.str_replace(' ','-',$section['title']).'">'.$section['title'].'</a></li>';
+						$section_id=str_replace(' ','-',$section['title']);
+						$section_id=str_replace(array('.', '"', "'"), array('', '', ""),$section_id);
+		        		echo '<li><a href="#'.$section_id.'">'.$section['title'].'</a></li>';
 					}
 					echo '<div class="clearfix"></div>';
 					echo '</ul>';
 					$first_item=true;
 					foreach($child->children() as $section){
-						echo '<div id="'.str_replace(' ','-',$section['title']).'">';
+						$section_id=str_replace(' ','-',$section['title']);
+						$section_id=str_replace(array('.', '"', "'"), array('', '', ""),$section_id);
+						echo '<div id="'.$section_id.'">';
 						$feed=simplexml_load_file($section['feed']);
 						foreach($feed->children() as $item){
 							$mydate = strtotime($item->date);
 							if ($mydate) {
 								$mydate=date('F jS Y', $mydate);
 							}
+							$contentid= $item->contentId;
 							$title=str_replace("'","\'",$item->title);
 							$synopsis=str_replace("'","\'",$item->synopsis);
-							$contentid= $item->contentId;
 							$title=str_replace('"','&quot;',$title);
 							$synopsis=str_replace('"','&quot;',$synopsis);
 							$img_url=$item['hdImg'];
+							$video_url=$item->media->streamUrl;
 							if ($first_item){
 								echo '
 									<script>
-									ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\')
+									ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\')
 									</script>
 									';
 								$first_item=false;
@@ -93,9 +98,9 @@
 							<div class="grid4column">
 								<div class="portfolio-list">
 								<div class="gallery-hover">
-									<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\')"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+									<a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\')"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
 								</div>
-								<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\')">'.truncate($item->title,75).'</a></h5>
+								<h5><a href="#showcase" onclick="ajax_reload(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\')">'.truncate($item->title,75).'</a></h5>
 								<p>'.$mydate.'</p>
 								</div><!-- close .portfolio-list -->
 							</div>

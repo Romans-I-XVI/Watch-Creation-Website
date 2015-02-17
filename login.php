@@ -41,6 +41,7 @@ else
     	<label for="email">Email: </label><input type="text" name="email" id="email" />  &nbsp;
         <label for="password">Password: </label><input type="password" name="password" id="password" />
         <input type="submit" name="login" id="login" value="Login" />
+        <a href="register.php" style="font-size: 12px">Register</a>
     </fieldset>
     </form>
      

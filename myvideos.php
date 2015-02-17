@@ -49,12 +49,10 @@
 		<div class="content-container-base-pagination" id="first-base-pagination"></div>
 		<div class="content-container">	
 			<div class="page-content">
-				
+			<?php if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) { ?>	
 				<h1 class="page-title">Watchlist</h1>
-				
+				<div class="myvideos" id="watchlist">
 				<?php
-				echo '<div class="myvideos" id="watchlist">';
-				if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
 					$counter="";	
 					$watchlist_query=	mysql_query("SELECT VideoID FROM `watchlist` WHERE UserID = ".$_SESSION['UserID']." ORDER BY watchlist.TimeStamp ASC");
 					$watchlist=array();
@@ -71,19 +69,20 @@
 									if ($mydate) {
 										$mydate=date('F jS Y', $mydate);
 									}
+									$contentid= $item->contentId;	
 									$title=str_replace("'","\'",$item->title);
 									$synopsis=str_replace("'","\'",$item->synopsis);
-									$contentid= $item->contentId;	
 									$title=str_replace('"','&quot;',$title);
 									$synopsis=str_replace('"','&quot;',$synopsis);
 									$img_url=$item['hdImg'];
+									$video_url=$item->media->streamUrl;
 									echo '
 									<div class="grid4column" id="'.$contentid.'">
 										<div class="portfolio-list">
 										<div class="gallery-hover">
-											<a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+											<a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
 										</div>
-										<h5><a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
+										<h5><a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
 										<p>'.$mydate.'</p>
 										</div><!-- close .portfolio-list -->
 									</div>
@@ -93,18 +92,10 @@
 							}
 						}
 					}
-				echo '</div>';
-				}
-				else {
-					echo '<p>Please log in to manage your videos.<p>'; 
-				}
 					
 				?> 
 				
-				
-				
-				
-				
+				</div>
 				<br><br><br>
 				<br><br><br>
 				<br><br><br>
@@ -113,50 +104,49 @@
 				
 				<h1 class="page-title">Purchased Videos</h1>
 				<p class="page-description"></p>
-				
+				<div class="myvideos">
 				<?php
-				echo '<div class="myvideos">';
-				if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) {
-					$xml=simplexml_load_file("./xml/store.xml") or die("Error: Cannot create object");
-					$counter="";
-					foreach($xml->children() as $product) {
-						foreach($_SESSION['Products'] as $product_id => $owned) {
-							if ($product->contentId == $product_id && $owned) {
-								$mydate = strtotime($product->date);
-								if ($mydate) {
-									$mydate=date('F jS Y', $mydate);
-								}
-								$title=str_replace("'","\'",$product->title);
-								$synopsis=str_replace("'","\'",$product->synopsis);
-								$title=str_replace('"','&quot;',$title);
-								$synopsis=str_replace('"','&quot;',$synopsis);
-								$img_url=$product['hdImg'];
-								$contentid=$product->contentId;
-								echo '
-								<div class="grid4column">
-									<div class="portfolio-list">
-									<div class="gallery-hover">
-										<a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
-									</div>
-									<h5><a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
-									<p>'.$mydate.'</p>
-									</div><!-- close .portfolio-list -->
-								</div>
-								';
+				$xml=simplexml_load_file("./xml/store.xml") or die("Error: Cannot create object");
+				$counter="";
+				foreach($xml->children() as $product) {
+					foreach($_SESSION['Products'] as $product_id => $owned) {
+						if ($product->contentId == $product_id && $owned) {
+							$mydate = strtotime($product->date);
+							if ($mydate) {
+								$mydate=date('F jS Y', $mydate);
 							}
+							$title=str_replace("'","\'",$product->title);
+							$synopsis=str_replace("'","\'",$product->synopsis);
+							$title=str_replace('"','&quot;',$title);
+							$synopsis=str_replace('"','&quot;',$synopsis);
+							$img_url=$product['hdImg'];
+							$video_url=$item->media->streamUrl;
+							$contentid=$product->contentId;
+							echo '
+							<div class="grid4column">
+								<div class="portfolio-list">
+								<div class="gallery-hover">
+									<a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
+								</div>
+								<h5><a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($product->title,75).'</a></h5>
+								<p>'.$mydate.'</p>
+								</div><!-- close .portfolio-list -->
+							</div>
+							';
 						}
 					}
-				
-				echo '</div>';
 				}
-				else {
-					echo '<p>Please log in to manage your videos.<p>'; 
-				}
-					
 				?> 
 				
-				
-			
+			</div>
+			<?php }
+			else { 
+			?>
+			<h1 class="page-title">Not Logged In</h1>
+				<div class="myvideos" id="no_login">
+					<p>Please log in to manage your videos.</p>
+				</div>
+			<?php } ?>
 			</div><!-- close .page-content -->
 			
 			
