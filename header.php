@@ -30,9 +30,9 @@
 	         data: {video_id: contentid},
 	         type: 'post'
 			});
-			$("#"+contentid).remove()
-			$("#showcase").hide()
-			$("#first-base-pagination").hide()
+			$("#item_"+contentid).remove();
+			$("#showcase").hide();
+			$("#first-base-pagination").hide();
 		}
 		
 		function add_remove_watchlist(id) {

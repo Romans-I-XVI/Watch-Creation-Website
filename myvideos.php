@@ -47,7 +47,7 @@
 			</div>
 		</div>
 		<div class="content-container-base-pagination" id="first-base-pagination"></div>
-		<div class="content-container">	
+		<div class="content-container">	<!-- Content Container For Watchlist -->
 			<div class="page-content">
 			<?php if( !empty($_SESSION['LoggedIn']) && !empty($_SESSION['EmailAddress'])) { ?>	
 				<h1 class="page-title">Watchlist</h1>
@@ -77,11 +77,9 @@
 									$img_url=$item['hdImg'];
 									$video_url=$item->media->streamUrl;
 									echo '
-									<div class="grid4column" id="'.$contentid.'">
+									<div class="grid4column" id="item_'.$contentid.'">
 										<div class="portfolio-list">
-										<div class="gallery-hover">
 											<a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();"><img src="'.$img_url.'" width="202" height="114" alt="" /></a>
-										</div>
 										<h5><a href="#showcase" onclick="ajax_reload_myvideos(\''.$title.'\',\''.$synopsis.'\',\''.$mydate.'\',\''.$img_url.'\',\''.$video_url.'\',\''.$contentid.'\'); show_pagination();">'.truncate($item->title,75).'</a></h5>
 										<p>'.$mydate.'</p>
 										</div><!-- close .portfolio-list -->
@@ -96,11 +94,13 @@
 				?> 
 				
 				</div>
-				<br><br><br>
-				<br><br><br>
-				<br><br><br>
-				<br><br><br>
-				
+            </div>
+            <div class="clearfix"></div>
+        </div>
+            
+        <div class="content-container-base-pagination" id="base-pagination"></div>
+        <div class="content-container"> <!-- Content Container For Purchased Videos -->
+            <div class="page-content">
 				
 				<h1 class="page-title">Purchased Videos</h1>
 				<p class="page-description"></p>
@@ -147,7 +147,7 @@
 					<p>Please log in to manage your videos.</p>
 				</div>
 			<?php } ?>
-			</div><!-- close .page-content -->
+			</div><!-- close .page-content Purchased Videos -->
 			
 			
 			
@@ -155,7 +155,7 @@
 			<div class="clearfix"></div>
 				
 			
-		</div><!-- close .content-container -->
+		</div><!-- close .content-container Purchased Videos-->
 	<div class="content-container-base-pagination"	></div>
 	</div><!-- close #main -->
 	
