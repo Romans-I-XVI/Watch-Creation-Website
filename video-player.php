@@ -1,6 +1,6 @@
 <?php include("header.php");
 	$id= (int) $_GET["id"];
-	$xml=simplexml_load_file("http://s3.amazonaws.com/roku-creation-channel/categories.xml") or die("Error: Cannot create object");
+	$xml=simplexml_load_file("http://watchcreation.com/xml-configuration/categories.xml") or die("Error: Cannot create object");
 	$child=$xml->category[$id];
  ?>
 

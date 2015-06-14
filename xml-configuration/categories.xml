@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categories>
+	<category id="0" title="Creation Today" description="" sd_img="http://watchcreation.com/media/CreationToday/channel-art/CreationToday_SD.jpg" hd_img="http://watchcreation.com/media/CreationToday/channel-art/CreationToday_HD.jpg">
+		<categoryLeaf title="Season 1" description="Creation Today Show: Season 1" feed="http://watchcreation.com/xml-content/CreationToday/creationtodayshow_S1.xml"/>
+		<categoryLeaf title="Season 2" description="Creation Today Show: Season 2" feed="http://watchcreation.com/xml-content/CreationToday/creationtodayshow_S2.xml"/>
+		<categoryLeaf title="Season 3" description="Creation Today Show: Season 3" feed="http://watchcreation.com/xml-content/CreationToday/creationtodayshow_S3.xml"/>
+		<categoryLeaf title="Creation Minute" description="" feed="http://watchcreation.com/xml-content/CreationToday/creationminute.xml" ></categoryLeaf>
+		<categoryLeaf title="Creation Bytes" description="" feed="http://watchcreation.com/xml-content/CreationToday/creationbytes.xml"></categoryLeaf>
+		<categoryLeaf title="Seminars" description="" feed="http://watchcreation.com/xml-content/CreationToday/seminars.xml"></categoryLeaf>
+		<categoryLeaf title="Debates" description="" feed="http://watchcreation.com/xml-content/CreationToday/debates.xml"></categoryLeaf>
+	</category>
+
+	<category id="1" title="Answers In Genesis" description="" sd_img="http://watchcreation.com/media/AnswersInGenesis/channel-art/AnswersInGenesis_SD.jpg" hd_img="http://watchcreation.com/media/AnswersInGenesis/channel-art/AnswersInGenesis_HD.jpg">
+		<categoryLeaf title="Age Of The Earth Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/ageoftheearth.xml"/>
+		<categoryLeaf title="Animal Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/animal.xml"/>
+		<categoryLeaf title="Bible Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/bible.xml"/>
+		<categoryLeaf title="Creation Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/creation.xml"/>
+		<categoryLeaf title="Evolution Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/evolution.xml"/>
+		<categoryLeaf title="God Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/god.xml"/>
+		<categoryLeaf title="Science Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/science.xml"/>
+		<categoryLeaf title="World View Videos" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/worldview.xml"/>
+		<categoryLeaf title="Video Series" description="" feed="http://watchcreation.com/xml-content/AnswersInGenesis/videoseries.xml"/>
+
+
+	</category>
+
+	<category id="2" title="Creation Truth Foundation" description="" sd_img="http://watchcreation.com/media/CreationTruthFoundation/channel-art/CreationTruthFoundation_SD.jpg" hd_img="http://watchcreation.com/media/CreationTruthFoundation/channel-art/CreationTruthFoundation_HD.jpg">
+		<categoryLeaf title="Dr. Sharp's Videos" description="" feed="http://watchcreation.com/xml-content/CreationTruthFoundation/DrSharp.xml"/>
+		<categoryLeaf title="Dr. Jackson's Videos" description="" feed="http://watchcreation.com/xml-content/CreationTruthFoundation/DrJackson.xml"/>
+		<categoryLeaf title="Matt's Videos" description="" feed="http://watchcreation.com/xml-content/CreationTruthFoundation/Matt.xml"/>
+
+	</category>
+
+	<category id="3" title="Awesome Science Media" description="" sd_img="http://watchcreation.com/media/AwesomeScienceMedia/channel-art/AwesomeScienceMedia_SD.jpg" hd_img="http://watchcreation.com/media/AwesomeScienceMedia/channel-art/AwesomeScienceMedia_HD.jpg">
+		<categoryLeaf title="Awesome Science" description="" feed="http://watchcreation.com/xml-content/AwesomeScienceMedia/awesomescience.xml" />
+		<categoryLeaf title="Flood Geology Series" description="" feed="http://watchcreation.com/xml-content/AwesomeScienceMedia/floodgeologyseries.xml" />
+		<categoryLeaf title="Interviews" description="" feed="http://watchcreation.com/xml-content/AwesomeScienceMedia/interviews.xml" />
+		<categoryLeaf title="Dino Hunter" description="" feed="http://watchcreation.com/xml-content/AwesomeScienceMedia/dinohunter.xml" />
+	
+	</category>
+
+	<category id="4" title="Museum Of Earth History" description="" sd_img="http://watchcreation.com/media/MuseumOfEarthHistory/channel-art/MuseumOfEarthHistory_SD.jpg" hd_img="http://watchcreation.com/media/MuseumOfEarthHistory/channel-art/MuseumOfEarthHistory_HD.jpg">
+		<categoryLeaf title="" description="" feed="http://watchcreation.com/xml-content/MuseumOfEarthHistory/museumofearthhistory.xml"/>
+	</category>
+
+	<category id="5" title="The Creation Museum" description="" sd_img="http://watchcreation.com/media/TheCreationMuseum/channel-art/TheCreationMuseum_SD.jpg" hd_img="http://watchcreation.com/media/TheCreationMuseum/channel-art/TheCreationMuseum_HD.jpg">
+		<categoryLeaf title="" description="" feed="http://watchcreation.com/xml-content/TheCreationMuseum/thecreationmuseum.xml"/>
+	</category>
+
+	<category id="6" title="Northwest Creation Network" description="" sd_img="http://watchcreation.com/media/NWCreationNetwork/channel-art/NWCreationNetwork_SD.jpg" hd_img="http://watchcreation.com/media/NWCreationNetwork/channel-art/NWCreationNetwork_HD.jpg">
+		<categoryLeaf title="" description="" feed="http://watchcreation.com/xml-content/NWCreationNetwork/nwcreationnetwork.xml"/>
+	</category>
+
+
+
+
+
+ </categories>

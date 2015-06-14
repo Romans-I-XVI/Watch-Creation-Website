@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+
+	<item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E1.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E1.jpg">
+		<title>Episode 1: The First Show! </title>
+		<contentId>10001</contentId>
+		<contentType>Video Podcast</contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>HD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl><![CDATA[http://s3.amazonaws.com/videos.vimeo.com/298/690/298690044.mp4?AWSAccessKeyId=AKIAJCX4YKY455TWB7MQ&Expires=1413746220&Signature=MVDM3f7Ej%2F7HBRdbvSc2fesuoXk%3D]]></streamUrl>
+		</media>
+		<synopsis>Eric Hovind and Paul Taylor discuss: How should a student cope in a public school; does belief in creation affect salvation; should creation be used when preaching the gospel?</synopsis>
+		<genres>Show</genres>
+		<runtime>1710</runtime>
+	</item>	
+	<item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E2.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E2.jpg">
+		<title>Episode 2: Should you talk about creation if you are sharing your faith?</title>
+		<contentId>10002</contentId>
+		<contentType>Video Podcast</contentType>
+		<contentQuality>HD</contentQuality>
+		<media>
+			<streamFormat>mp4</streamFormat>
+			<streamQuality>SD</streamQuality>
+			<streamBitrate>0</streamBitrate>
+			<streamUrl>http://video.ted.com/talks/podcast/DanGilbert_2004_480.mp4</streamUrl>
+		</media>
+		<synopsis>Eric Hovind and Paul Taylor discuss: Does a day mean a day; dinosaurs with big eyes; and museum dinosaur exhibits.</synopsis>
+		<genres>Show</genres>
+		<runtime>1699</runtime>
+	</item>	
+        <item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E3.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E3.jpg">
+		<title>Episode 3: How do evolutionists come up with the idea that creationists are not real scientists?</title>
+                <contentId>10003</contentId>
+                <contentType>Video Podcast</contentType>
+                <contentQuality>HD</contentQuality>
+                <media>
+                        <streamFormat>mp4</streamFormat>
+                        <streamQuality>HD</streamQuality>
+                        <streamBitrate>0</streamBitrate>
+                        <streamUrl>http://video.ted.com/talks/podcast/VilayanurRamachandran_2007_480.mp4</streamUrl>
+                </media>
+                <synopsis>Eric Hovind and Paul Taylor discuss: Creationists versus scientists; the appendix and vestigial organs; the benefit of denying a creator.</synopsis>
+                <genres>Show</genres>
+                <runtime>1710</runtime>
+        </item>
+</feed>

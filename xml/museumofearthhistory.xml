@@ -4,7 +4,7 @@
 	<resultLength>4</resultLength>
 	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
 	<endIndex>4</endIndex>
-	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg">
+	<item sdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg" hdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/BeautyOfPollination.jpg">
 		<title>The Beauty of Pollination</title>
 		<contentId>10001</contentId>
 		<contentType>Clip</contentType>
@@ -13,13 +13,13 @@
 			<streamFormat>mp4</streamFormat>
 			<streamQuality>SD</streamQuality>
 			<streamBitrate>0</streamBitrate>
-			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
+			<streamUrl><![CDATA[http://watchcreation.com/media/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
 		</media>
 		<synopsis></synopsis>
 		<genres>Clip</genres>
 		<runtime>238</runtime>
 	</item>	
-	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/moehdallas.jpg">
+	<item sdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/moehdallas.jpg" hdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/moehdallas.jpg">
 		<title>Museum Of Earth History Dallas</title>
 		<contentId>10002</contentId>
 		<contentType>Clip</contentType>
@@ -28,13 +28,13 @@
 			<streamFormat>mp4</streamFormat>
 			<streamQuality>SD</streamQuality>
 			<streamBitrate>0</streamBitrate>
-			<streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Museum_of_Earth_History_Dallas.mp4</streamUrl>
+			<streamUrl>http://watchcreation.com/media/MuseumOfEarthHistory/Videos/Museum_of_Earth_History_Dallas.mp4</streamUrl>
 		</media>
 		<synopsis></synopsis>
 		<genres>Clip</genres>
 		<runtime>328</runtime>
 	</item>	
-        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg">
+        <item sdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg" hdImg="http://watchcreation.com/media/MuseumOfEarthHistory/Images/DiscoverYourOrigins.jpg">
 		<title>Discover Your Origins</title>
                 <contentId>10003</contentId>
                 <contentType>Clip</contentType>
@@ -43,7 +43,7 @@
                         <streamFormat>mp4</streamFormat>
                         <streamQuality>HD</streamQuality>
                         <streamBitrate>0</streamBitrate>
-                        <streamUrl>http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/Discover_Your_Origins.mp4</streamUrl>
+                        <streamUrl>http://watchcreation.com/media/MuseumOfEarthHistory/Videos/Discover_Your_Origins.mp4</streamUrl>
                 </media>
                 <synopsis></synopsis>
                 <genres>Clip</genres>

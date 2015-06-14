@@ -4,7 +4,7 @@
 	<resultLength>4</resultLength>
 	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
 	<endIndex>4</endIndex>
-	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationTruthFoundation/Images/Matt/Biblical_Worldview.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationTruthFoundation/Images/Matt/Biblical_Worldview.jpg">
+	<item sdImg="http://watchcreation.com/media/CreationTruthFoundation/Images/Matt/Biblical_Worldview.jpg" hdImg="http://watchcreation.com/media/CreationTruthFoundation/Images/Matt/Biblical_Worldview.jpg">
 		<title>Biblical Worldview</title>
 		<contentId>12015</contentId>
 		<contentType></contentType>
@@ -13,7 +13,7 @@
 			<streamFormat>mp4</streamFormat>
 			<streamQuality>HD</streamQuality>
 			<streamBitrate>0</streamBitrate>
-			<streamUrl><![CDATA[http://s3.amazonaws.com/roku-creation-channel/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
+			<streamUrl><![CDATA[http://watchcreation.com/media/MuseumOfEarthHistory/Videos/The_Beauty_of_Pollination.mp4]]></streamUrl>
 		</media>
 		<synopsis>This presentation was given during a Youth for Nations Conference in July of 2011 on the campus of Christ for the Nations. Matt shares the importance of Biblical Worldview and the affect on ones walk with Christ.</synopsis>
 		<genres>Presentation</genres>

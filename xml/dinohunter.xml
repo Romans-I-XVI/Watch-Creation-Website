@@ -4,7 +4,7 @@
 	<resultLength>4</resultLength>
 	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
 	<endIndex>4</endIndex>
-	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E1.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E1.jpg">
+	<item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E1.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E1.jpg">
 		<title>Episode 1: The First Show! </title>
 		<contentId>10001</contentId>
 		<contentType>Video Podcast</contentType>
@@ -19,7 +19,7 @@
 		<genres>Show</genres>
 		<runtime>1710</runtime>
 	</item>	
-	<item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E2.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E2.jpg">
+	<item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E2.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E2.jpg">
 		<title>Episode 2: Should you talk about creation if you are sharing your faith?</title>
 		<contentId>10002</contentId>
 		<contentType>Video Podcast</contentType>
@@ -34,7 +34,7 @@
 		<genres>Show</genres>
 		<runtime>1699</runtime>
 	</item>	
-        <item sdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E3.jpg" hdImg="http://s3.amazonaws.com/roku-creation-channel/CreationToday/Images/S1E3.jpg">
+        <item sdImg="http://watchcreation.com/media/CreationToday/Images/S1E3.jpg" hdImg="http://watchcreation.com/media/CreationToday/Images/S1E3.jpg">
 		<title>Episode 3: How do evolutionists come up with the idea that creationists are not real scientists?</title>
                 <contentId>10003</contentId>
                 <contentType>Video Podcast</contentType>
